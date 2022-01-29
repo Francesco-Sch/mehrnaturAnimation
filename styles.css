@@ -44,3 +44,15 @@ body {
     font-size: 15vw;
     color: white;
 }
+
+.fontslide {
+    animation: 0.75s infinite alternate ease-in-out fontslide;
+}
+
+@keyframes fontslide {
+    0% { font-family: "Redaction", serif; }
+    25% { font-family: "Redaction-10", serif; }
+    50% { font-family: "Redaction-20", serif; }
+    75% { font-family: "Redaction-35", serif; }
+    100% { font-family: "Redaction-50", serif; }
+}
