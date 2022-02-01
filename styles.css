@@ -37,11 +37,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: black;
+    overflow: hidden;
 }
 
 #animated-logo {
     font-family: "Redaction", serif;
-    font-size: 15vw;
+    font-size: 12.5vw;
     color: white;
 }
 
